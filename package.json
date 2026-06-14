@@ -2,7 +2,7 @@
   "name": "txt-color",
   "displayName": "TXT Color",
   "description": "Simple syntax highlighting for plain text, logs, configuration, environment and properties files.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "VoceCertificado",
   "icon": "images/icon.png",
   "license": "MIT",
@@ -22,8 +22,7 @@
     "vscode": "^1.85.0"
   },
   "categories": [
-    "Programming Languages",
-    "Other"
+    "Programming Languages"
   ],
   "keywords": [
     "txt",
@@ -59,7 +58,7 @@
           "Text highlight"
         ],
         "extensions": [
-          ".txt",
+          ".txt",          
           ".log",
           ".ini",
           ".conf",

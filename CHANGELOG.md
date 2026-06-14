@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.1 - 2026/07/14
+- Updated marketplace extension category to use only `Programming Languages`.
+
 ## 0.1.0 - 2026/07/13
 - Stable version.
 
