@@ -2,7 +2,7 @@
   "name": "txt-color",
   "displayName": "TXT Color",
   "description": "Simple syntax highlighting for plain text, logs, configuration, environment and properties files.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "VoceCertificado",
   "icon": "images/icon.png",
   "license": "MIT",
