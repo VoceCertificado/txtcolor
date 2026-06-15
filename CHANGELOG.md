@@ -2,6 +2,7 @@
 
 ## 0.2.1 - 2026-06-15
 - Updated test-file.txt, removing redundant example texts.
+- Updated screenshot images.
 
 ## 0.2.0 - 2026-06-15
 - Fixed typo in language aliases (`TXT Syntex` → `TXT Syntax`, `Text Syntex` → `Text Syntax`).

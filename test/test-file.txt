@@ -92,8 +92,7 @@ Step Deploy
 ---
 
 # Brackets, auto-closing pairs and surrounding pairs examples:
-<example>
-«text inside guillemets»
+« text inside guillemets »
 { block }
 ( parentheses )
 [ brackets ]

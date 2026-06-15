@@ -2,7 +2,7 @@
   "name": "txt-color",
   "displayName": "TXT Color",
   "description": "A beautiful color highlighting extension for plain text and configuration-style files, compatible with VS Code, Kiro, and other VS Code-based IDEs.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "VoceCertificado",
   "icon": "images/icon.png",
   "license": "MIT",
