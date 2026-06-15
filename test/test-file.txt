@@ -1,16 +1,13 @@
-# TXT Color test file with examples
-## This file validates syntax highlighting and configuration-style patterns.
+TXT COLOR TEST FILE WITH EXAMPLES
+This file validates syntax highlighting and configuration-style patterns.
 
 Markdown examples:
 # Markdown headings
 ## Markdown subtitle
 ### Smaller Markdown section
-#### Fourth level Markdown section
-##### Fifth level Markdown section
-###### Sixth level Markdown section
 
 # Headings examples:
-ALL CAPS EXAMPLE
+ALL CAPS TEXT EXAMPLE
 small caps text example
 
 # INI-style sections examples:
@@ -20,11 +17,6 @@ port=3306
 user: admin
 password="123456"
 
-[aws]
-region=sa-east-1
-service: Amazon EC2
-account: lab
-
 # Key/value pairs and boolean constants examples:
 enabled=true
 debug=false
@@ -33,19 +25,9 @@ verbose=no
 ssl=on
 cache=off
 
-# Line comments examples:
-# Comment starting with hash
-; Comment starting with semicolon
-
-# Single-dash list items examples:
+# Single-dash and Double-dash list items examples:
 - Simple list item
-- Validate domain configuration
-- Review environment file
-
-# Double-dash list items examples:
--- Important note
 -- Subitem or additional note
--- Check if the certificate was validated
 
 # URLs and email addresses examples:
 site=https://www.contoso.com

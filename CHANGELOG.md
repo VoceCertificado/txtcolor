@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.2.1 - 2026-06-15
+- Updated test-file.txt, removing redundant example texts.
+
 ## 0.2.0 - 2026-06-15
 - Fixed typo in language aliases (`TXT Syntex` → `TXT Syntax`, `Text Syntex` → `Text Syntax`).
 - Added support for `.toml`, `.editorconfig` and `.gitconfig` file extensions.
@@ -13,7 +16,7 @@
 - Added backtick string highlighting.
 - Added inline comments to grammar patterns for maintainability.
 - Updated README.MD to document folding syntax, new extensions and new highlighting features.
-- Updated test file to cover all new cases.
+- Updated test-file.txt to cover all new cases.
 
 ## 0.1.2 - 2026-06-14
 - Updated README.MD screenshot descriptions.
@@ -27,7 +30,7 @@
 ## 0.0.4 - 2026-06-13
 - Added images section.
 - Added icon and screenshot images.
-- Added test file.
+- Added test-file.txt.
 - Added the SUPPORT.MD file.
 - Updated the package.json.
 
