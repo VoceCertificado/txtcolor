@@ -1,8 +1,8 @@
 {
   "name": "txt-color",
   "displayName": "TXT Color",
-  "description": "Simple syntax highlighting for plain text, logs, configuration, environment and properties files.",
-  "version": "0.1.2",
+  "description": "A beautiful color highlighting extension for plain text and configuration-style files, compatible with VS Code, Kiro, and other VS Code-based IDEs.",
+  "version": "0.2.0",
   "publisher": "VoceCertificado",
   "icon": "images/icon.png",
   "license": "MIT",
@@ -36,6 +36,9 @@
     "env",
     "dotenv",
     "properties",
+    "toml",
+    "editorconfig",
+    "gitconfig",
     "configuration",
     "config",
     "key-value",
@@ -50,21 +53,24 @@
         "aliases": [
           "TXT",
           "TXT Color",
-          "TXT Syntex",
+          "TXT Syntax",
           "TXT highlight",
           "Text",
           "Text Color",
-          "Text Syntex",
+          "Text Syntax",
           "Text highlight"
         ],
         "extensions": [
-          ".txt",          
+          ".txt",
           ".log",
           ".ini",
           ".conf",
           ".cfg",
           ".env",
-          ".properties"
+          ".properties",
+          ".toml",
+          ".editorconfig",
+          ".gitconfig"
         ],
         "configuration": "./language-configuration.json"
       }

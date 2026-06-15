@@ -1,76 +1,139 @@
-# Main title in Markdown
+# TXT Color test file with examples
+## This file validates syntax highlighting and configuration-style patterns.
+
+Markdown examples:
+# Markdown headings
 ## Markdown subtitle
 ### Smaller Markdown section
+#### Fourth level Markdown section
+##### Fifth level Markdown section
+###### Sixth level Markdown section
 
+# Headings examples:
 ALL CAPS EXAMPLE
 small caps text example
 
+# INI-style sections examples:
 [database]
 host=localhost
 port=3306
 user: admin
 password="123456"
-enabled=true
 
 [aws]
 region=sa-east-1
 service: Amazon EC2
 account: lab
 
+# Key/value pairs and boolean constants examples:
+enabled=true
+debug=false
+active=yes
+verbose=no
+ssl=on
+cache=off
+
+# Line comments examples:
 # Comment starting with hash
 ; Comment starting with semicolon
 
+# Single-dash list items examples:
 - Simple list item
 - Validate domain configuration
 - Review environment file
 
+# Double-dash list items examples:
 -- Important note
 -- Subitem or additional note
 -- Check if the certificate was validated
 
+# URLs and email addresses examples:
 site=https://www.contoso.com
 email=john.doe@contoso.com
 
+# URL fragment should not be treated as a line comment examples:
+docs=https://example.com/page#anchor
+
+# Important keywords examples:
 TODO review this configuration
 FIXME fix the variable value
 NOTE this is an important note
 INFO process started
 DEBUG variable loaded successfully
-WARN check this configuration
-WARNING exposed port
-ERROR connection refused
-FAILED deployment not completed
-SUCCESS deployment completed
-PASS test executed
-PASSED final validation completed
 
+# Log severity full-line coloring examples:
+2024-01-15 10:32:45 ERROR connection refused
+2024-01-15 10:33:01 WARN check this configuration
+2024-01-15 10:33:02 WARNING exposed port
+2024-01-15 10:35:10 SUCCESS deployment completed
+2024-01-15 10:35:11 PASS test executed
+2024-01-15 10:35:12 PASSED final validation completed
+2024-01-15 10:35:13 FAILED deployment not completed
+
+# Dates, timestamps and numbers examples:
+created=2024-01-15
+updated=2024-06-30T08:00:00
+log_time=10:32:45.123
 integer_number=123
 decimal_number=45.67
 port: 8080
 timeout: 30
 
+# Quoted strings examples:
 double_quotes="value inside double quotes"
 single_quotes='value inside single quotes'
 backticks=`value inside backticks`
 
+# Folding with Section marker example:
 Section General Configuration
-This line should be inside the foldable section.
-Another content line inside Section.
+  This line should be inside the foldable section.
+  Another content line inside Section.
 ---
 
+# Folding with Region marker example:
 Region Database
-Database configuration for local testing.
-host=db.local
-port=5432
+  Database configuration for local testing.
+  host=db.local
+  port=5432
 ---
 
+# Folding with Step marker example:
+Step Deploy
+  run build script
+  notify team
+---
+
+# Folding with [section] marker example:
 [folding-section]
-This section should also support folding.
-line=value
+  This section should also support folding.
+  line=value
 ---
 
+# Brackets, auto-closing pairs and surrounding pairs examples:
 <example>
 «text inside guillemets»
 { block }
 ( parentheses )
 [ brackets ]
+
+# TOML-style configuration examples:
+[toml-style]
+name = "my-app"
+version = "1.0.0"
+enabled = true
+
+# EditorConfig-style configuration examples:
+[editorconfig-style]
+indent_style = space
+indent_size = 2
+
+# GitConfig-style configuration examples:
+[gitconfig-style]
+user.name = John Doe
+user.email = john.doe@contoso.com
+core.editor = code --wait
+pull.rebase = false
+
+# Negative tests for ALL CAPS heading conflicts examples:
+ENVIRONMENT=PRODUCTION
+MODE: PRODUCTION

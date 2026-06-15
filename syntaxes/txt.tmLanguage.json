@@ -3,70 +3,117 @@
   "name": "TXT Color",
   "patterns": [
     {
+      "comment": "Comments starting with # or ; — anchored to start of line to avoid matching URL fragments",
       "name": "comment.line.txt",
-      "match": "(#|;).*"
+      "match": "^\\s*(#|;).*"
     },
     {
+      "comment": "Markdown-style headings (## heading)",
       "name": "markup.heading.txt",
       "match": "^\\s*(#{2,6})\\s+.*$"
     },
     {
+      "comment": "ALL CAPS headings — excluded when line contains = or : to avoid clashing with key=VALUE patterns",
       "name": "markup.heading.txt",
-      "match": "^\\s*[A-ZÁÉÍÓÚÂÊÔÃÕÇ0-9][A-ZÁÉÍÓÚÂÊÔÃÕÇ0-9\\s.,:;!?/()_-]{3,}$"
+      "match": "^\\s*[A-ZÁÉÍÓÚÂÊÔÃÕÇ0-9][A-ZÁÉÍÓÚÂÊÔÃÕÇ0-9\\s.,:;!?/()_-]{3,}$(?<![=:])"
     },
     {
+      "comment": "Log lines with severity prefix — highlights the whole line for ERROR/WARN/INFO/DEBUG",
+      "name": "invalid.illegal.error.txt",
+      "match": "^.*\\b(ERROR|FAILED)\\b.*$"
+    },
+    {
+      "comment": "Warning lines",
+      "name": "invalid.deprecated.warning.txt",
+      "match": "^.*\\b(WARN|WARNING)\\b.*$"
+    },
+    {
+      "comment": "Success lines",
+      "name": "markup.inserted.success.txt",
+      "match": "^.*\\b(SUCCESS|PASS|PASSED)\\b.*$"
+    },
+    {
+      "comment": "Double-dash list items",
       "name": "keyword.other.list.double-dash.txt",
       "match": "^\\s*--\\s+.*$"
     },
     {
+      "comment": "Single-dash list items",
       "name": "keyword.other.list.dash.txt",
       "match": "^\\s*-\\s+.*$"
     },
     {
+      "comment": "Folding start markers",
       "name": "keyword.control.folding.start.txt",
       "match": "^\\s*(Section|SECTION|Region|REGION|Step|STEP)\\b.*$"
     },
     {
+      "comment": "Folding end marker",
       "name": "keyword.control.folding.end.txt",
       "match": "^\\s*---\\s*$"
     },
     {
+      "comment": "[section] headers",
       "name": "entity.name.section.txt",
       "match": "^\\s*\\[[^\\]]+\\]"
     },
     {
+      "comment": "Key in key=value or key: value pairs",
       "name": "variable.other.key.txt",
       "match": "^\\s*[A-Za-z0-9_.-]+(?=\\s*[=:])"
     },
     {
+      "comment": "Assignment operators",
       "name": "keyword.operator.assignment.txt",
       "match": "[=:]"
     },
     {
-      "name": "keyword.other.important.txt",
-      "match": "\\b(TODO|FIXME|NOTE|INFO|DEBUG|WARN|WARNING|ERROR|FAILED|SUCCESS|PASS|PASSED)\\b"
+      "comment": "Boolean constants",
+      "name": "constant.language.boolean.txt",
+      "match": "\\b(true|false|yes|no|on|off|True|False|Yes|No|On|Off|TRUE|FALSE|YES|NO|ON|OFF)\\b"
     },
     {
+      "comment": "Inline important keywords (not already handled by full-line patterns above)",
+      "name": "keyword.other.important.txt",
+      "match": "\\b(TODO|FIXME|NOTE|INFO|DEBUG)\\b"
+    },
+    {
+      "comment": "ISO dates (2024-01-15) and times (10:32:45)",
+      "name": "constant.numeric.date.txt",
+      "match": "\\b\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}(:\\d{2})?)?\\b|\\b\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?\\b"
+    },
+    {
+      "comment": "Numbers",
       "name": "constant.numeric.txt",
       "match": "\\b\\d+(\\.\\d+)?\\b"
     },
     {
+      "comment": "URLs",
       "name": "markup.underline.link.txt",
       "match": "\\bhttps?://[^\\s]+"
     },
     {
+      "comment": "Email addresses",
       "name": "string.other.email.txt",
       "match": "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b"
     },
     {
+      "comment": "Double-quoted strings",
       "name": "string.quoted.double.txt",
       "begin": "\"",
       "end": "\""
     },
     {
+      "comment": "Single-quoted strings",
       "name": "string.quoted.single.txt",
       "begin": "'",
       "end": "'"
+    },
+    {
+      "comment": "Backtick strings",
+      "name": "string.quoted.backtick.txt",
+      "begin": "`",
+      "end": "`"
     }
   ]
 }
