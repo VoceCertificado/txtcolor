@@ -8,7 +8,7 @@ TXT Color is a simple syntax highlighting extension for plain text, logs, config
 
 If you find a problem, have a suggestion, or want to request support for another file type, please open an issue on GitHub:
 
-https://github.com/vocecertificado/txt-color/issues
+https://github.com/VoceCertificado/txtcolor/issues
 
 ## Before opening an issue
 

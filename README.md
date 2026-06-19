@@ -1,5 +1,5 @@
 <img
-    src="https://raw.githubusercontent.com/vocecertificado/txt-color/main/images/icon.png"
+    src="https://raw.githubusercontent.com/VoceCertificado/txtcolor/main/images/icon.png"
     alt="TXT Color"
     width="120"
     height="120"
@@ -49,10 +49,10 @@ A sample file is available in the `test/` folder.
 
 TXT Color applied to a `.txt` file using the Light+ IDE theme.
 
-![TXT Color applied to a TXT file using the Light+ IDE theme](https://raw.githubusercontent.com/vocecertificado/txt-color/main/images/txt-color-light-theme.png)
+![TXT Color applied to a TXT file using the Light+ IDE theme](https://raw.githubusercontent.com/VoceCertificado/txtcolor/main/images/txt-color-light-theme.png)
 
 ### Dark+ theme
 
 TXT Color applied to a `.txt` file using the Dark+ IDE theme.
 
-![TXT Color applied to a TXT file using the Dark+ IDE theme](https://raw.githubusercontent.com/vocecertificado/txt-color/main/images/txt-color-dark-theme.png)
+![TXT Color applied to a TXT file using the Dark+ IDE theme](https://raw.githubusercontent.com/VoceCertificado/txtcolor/main/images/txt-color-dark-theme.png)

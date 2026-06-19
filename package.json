@@ -2,17 +2,17 @@
   "name": "txt-color",
   "displayName": "TXT Color",
   "description": "A beautiful color highlighting extension for plain text and configuration-style files, compatible with VS Code, Kiro, and other VS Code-based IDEs.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "publisher": "VoceCertificado",
   "icon": "images/icon.png",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vocecertificado/txt-color"
+    "url": "https://github.com/VoceCertificado/txtcolor"
   },
-  "homepage": "https://github.com/vocecertificado/txt-color#readme",
+  "homepage": "https://github.com/VoceCertificado/txtcolor#readme",
   "bugs": {
-    "url": "https://github.com/vocecertificado/txt-color/issues"
+    "url": "https://github.com/VoceCertificado/txtcolor/issues"
   },
   "galleryBanner": {
     "color": "#F08C35",
