@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.2 - 2026-06-18
+- Renamed the repository from txt-color to txtcolor after moving the project to the VoceCertificado organization.
+- Updated repository links in the documentation and package metadata.
+
 ## 0.2.1 - 2026-06-15
 - Updated test-file.txt, removing redundant example texts.
 - Updated screenshot images.
