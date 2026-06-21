@@ -7,6 +7,9 @@
 
 # TXT Color
 
+[![Open VSX](https://img.shields.io/badge/Open%20VSX-TXT%20Color-blue)](https://open-vsx.org/extension/VoceCertificado/txt-color)
+[![Visual Studio Marketplace](https://img.shields.io/badge/VS%20Marketplace-TXT%20Color-blue)](https://marketplace.visualstudio.com/items?itemName=VoceCertificado.txt-color)
+
 A beautiful color highlighting extension for plain text and configuration-style files, compatible with VS Code, Kiro, and other VS Code-based IDEs.
 
 ## Features
