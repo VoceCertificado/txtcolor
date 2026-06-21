@@ -25,6 +25,8 @@ A beautiful color highlighting extension for plain text and configuration-style 
 
 ## Supported file extensions
 
+TXT Color is useful for notes, logs, environment files, configuration files, and simple structured text.
+
 `.txt`, `.log`, `.ini`, `.conf`, `.cfg`, `.env`, `.properties`, `.toml`, `.editorconfig`, `.gitconfig`
 
 ## Folding
