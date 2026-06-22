@@ -6,7 +6,6 @@
   />
 
 # TXT Color
-<div align="center">
 
   [![Open VSX](https://img.shields.io/badge/Open%20VSX-TXT%20Color-blue)](https://open-vsx.org/extension/VoceCertificado/txt-color)
   [![Visual Studio Marketplace](https://img.shields.io/badge/VS%20Marketplace-TXT%20Color-blue)](https://marketplace.visualstudio.com/items?itemName=VoceCertificado.txt-color)
@@ -18,8 +17,6 @@
   </p>
 
   Uma extensão bonita de realce de cores para arquivos de texto simples e arquivos no estilo de configuração, compatível com VS Code, Kiro e outras IDEs baseadas no VS Code.
-
-</div>
 
 ## Recursos
 
