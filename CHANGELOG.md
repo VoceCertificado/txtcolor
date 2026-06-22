@@ -1,4 +1,9 @@
 # Changelog
+## 0.2.4 - 2026-06-22
+- Updated .gitignore to not upload kiro internal files.
+- Updated README.md for multilingual purposes.
+- Added README.es.md and README.pt-BR.md
+- Updated package.json
 
 ## 0.2.3 - 2026-06-20
 - Reorganized grammar patterns for better maintainability.
