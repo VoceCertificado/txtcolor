@@ -1,12 +1,14 @@
 # macOS
 .DS_Store
-**/.DS_Store
 
-# VS Code / Kiro package output
+# Pacotes gerados da extensão
 *.vsix
 
-# Node dependencies, se usar npm futuramente
+# Dependências Node.js
 node_modules/
+
+# Ambiente de testes de extensões
+.vscode-test/
 
 # Logs
 *.log
@@ -15,5 +17,5 @@ node_modules/
 tmp/
 temp/
 
-# hooks
-.kiro/
+# Hooks locais do Kiro
+.kiro/hooks/
